@@ -251,21 +251,12 @@ from tkinter import filedialog, scrolledtext, ttk
 # =====================================================================================
 SIGNATURE = "SilentChuckle"
 
-MIT_LICENSE_TEXT = (
-    "MIT License\n\n"
-    "Copyright (c) 2026 SilentChuckle\n\n"
-    "Permission is hereby granted, free of charge, to any person obtaining a copy of this software and "
-    "associated documentation files (the \"Software\"), to deal in the Software without restriction, including "
-    "without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell "
-    "copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the "
-    "following conditions:\n\n"
-    "The above copyright notice and this permission notice shall be included in all copies or substantial "
-    "portions of the Software.\n\n"
-    "THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT "
-    "LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO "
-    "EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER "
-    "IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE "
-    "USE OR OTHER DEALINGS IN THE SOFTWARE."
+LICENSE_TEXT = (
+    "PolyForm Noncommercial License 1.0.0\n\n"
+    "Required Notice: Copyright (c) 2026 SilentChuckle (https://github.com/Merely-Human)\n\n"
+    "This software is free for any non-commercial purpose under the PolyForm Noncommercial License 1.0.0. "
+    "Commercial use requires written permission from the author.\n\n"
+    "Full terms: https://polyformproject.org/licenses/noncommercial/1.0.0"
 )
 
 THEME = {
@@ -877,9 +868,9 @@ class App(tk.Tk):
         about.pack(fill="x", pady=(0, 10))
         ttk.Label(about.body, text=f"Written by {SIGNATURE}", style="Card.TLabel",
                   font=("Segoe UI", 10, "bold")).pack(anchor="w")
-        ttk.Label(about.body, text=MIT_LICENSE_TEXT, style="CardMuted.TLabel", justify="left",
+        ttk.Label(about.body, text=LICENSE_TEXT, style="CardMuted.TLabel", justify="left",
                   wraplength=760).pack(anchor="w", pady=(6, 0))
-        ttk.Label(root, text=f"{SIGNATURE}  |  MIT License", style="Muted.TLabel").pack(anchor="e", pady=(4, 0))
+        ttk.Label(root, text=f"{SIGNATURE}  |  PolyForm Noncommercial 1.0.0", style="Muted.TLabel").pack(anchor="e", pady=(4, 0))
 
     def set_busy(self, busy):
         self.busy = busy
