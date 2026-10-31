@@ -22,8 +22,8 @@ Ollama Package Manager is a lightweight Python desktop app for local Ollama user
 ## Usage
 
 ```bash
-git clone https://github.com/Merely-Human/OP-Manager.git
-cd OP-Manager
+git clone https://github.com/Merely-Human/Ollama_Package_Manager.git
+cd Ollama_Package_Manager
 python Ollama_Package_Manager.py
 ```
 
