@@ -51,4 +51,4 @@ python Ollama_Package_Manager.py
 
 ## License
 
-MIT. See [LICENSE](LICENSE).
+[PolyForm Noncommercial License 1.0.0](LICENSE): free for any non-commercial use. Commercial use requires written permission from the author.
